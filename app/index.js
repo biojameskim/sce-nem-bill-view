@@ -9,6 +9,8 @@ const Home = () => {
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
+
+      {/* Header Declarations */}
       <Stack.Screen 
         options={{
           headerStyle: { backgroundColor: COLORS.lightWhite },
@@ -21,14 +23,28 @@ const Home = () => {
             />,
         }}
       />
+      
+      {/* Account Information */}
+      <Separator color='lightgray' width='2'/> 
+      <AccountInfo 
+        address="231 E Harrison Ave, Pomona, CA, 93238,"
+        accountNumber="123456789123"
+      />
 
+      {/* Bill Information */}
       <ScrollView showsVerticalScrollIndicator={false}>
         <View style={{ flex: 1}}>
-          <Separator color='lightgray' width='2'/> 
-          <AccountInfo />
-          <Separator color='black' width='2'/>
-          <BillInfo />
-          <Separator color='black' width='2'/>
+          <BillInfo 
+            dueDate='Jul 15' 
+            balance='12.03' 
+            autoPay={true} 
+            billCycle='Jun 14 - Jul 15' 
+            nemMonth='10'
+          />
+          <Separator 
+            color={COLORS.edisonGray}
+            width='2'
+          />
           <BillDetails />
         </View>
       </ScrollView>

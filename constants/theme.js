@@ -11,10 +11,12 @@ const SIZES = {
   large: 20,
   xLarge: 24,
   xxLarge: 32,
+  xxxLarge: 40,
 };
 
 const COLORS = {
   lightWhite: "#FAFAFA",
+  lightGray: '#e9e9e9',
   // Edison Themes
   edisonYellow: "#FED141",
   edisonBlack: "#101820",
