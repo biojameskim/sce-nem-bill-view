@@ -45,7 +45,14 @@ const Home = () => {
             color={COLORS.edisonGray}
             width='2'
           />
-          <BillDetails />
+          <BillDetails 
+            dueDate='Jul 15, 2023'
+            balance='12.03'
+            nemDueDate='Sep 15, 2023'
+            nemMonth='10'
+            startDate='Jun 14'
+            endDate='Jul 15'
+          />
         </View>
       </ScrollView>
 

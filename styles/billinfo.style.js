@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-evenly',
     alignItems: 'center',
     marginTop: 30,
-    marginBottom: 50
+    marginBottom: 60
   },
   payContainer: {
     justifyContent: 'center',
