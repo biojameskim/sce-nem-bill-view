@@ -1,4 +1,4 @@
-# sce-nem-bill-view
+# NEM Billing View Redesign
 Redesign of Billing Page for MySce App made for SCE
 
 ## Tools
